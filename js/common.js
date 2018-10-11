@@ -69,9 +69,9 @@
    },
    stats:function()
    {
-        $('.our-stats-box').each(function () {
-        $('.our-stat-info').fappear(function (direction) {
-            $('.stats').countTo();
+        $('.our_goals_box').each(function () {
+        $('.our_goals_info').fappear(function (direction) {
+            $('.goals').countTo();
         }, {offset: "100px"});
     });
    },
