@@ -964,9 +964,10 @@ blockquote .small, blockquote footer, blockquote small
 	opacity: 1;
 	overflow: hidden;
 }
+
 #quote-carousel .carousel-inner
 {
-	min-height: 300px;
+	min-height: 350px;
 }
 
 .item blockquote
@@ -1441,5 +1442,9 @@ ol.type li a:hover
     .project-container
     {
         width: 75%;
+    }
+    #quote-carousel .carousel-inner
+    {
+    	min-height: 500px;
     }
 }
